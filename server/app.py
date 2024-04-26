@@ -12,7 +12,7 @@ from werkzeug.exceptions import BadRequest
 app = Flask(__name__)
 
 # Set your Google Maps API key here
-app.config['GOOGLE_MAPS_API_KEY'] = 'AIzaSyBVel-IetIeSkaVsq3qHUIR9t8B9171CzU'
+app.config['GOOGLE_MAPS_API_KEY'] = '***'
 
 # Initialize SQLAlchemy with Flask app and specify the database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///your_database.db'
